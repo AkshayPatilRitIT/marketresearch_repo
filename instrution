@@ -1,0 +1,15 @@
+1 after clone this repo install gatsby cli npm install -g gatsby-cli
+
+2 then npm install command
+
+3 after that run this project using gatsby develop command
+
+
+
+
+
+Error in Paypal existing project
+
+In gatsby there is server side rendering and paypal checkout package having window keyword built in 
+because of this we cant build this project there is error in build on local there is fine no error at the the server side rendering there is error like window is not rendering at server side rendering
+
