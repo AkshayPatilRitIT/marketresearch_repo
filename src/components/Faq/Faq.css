@@ -1,0 +1,43 @@
+.Faq__wrapper {
+  margin-top: 40px;
+}
+.Faq__container {
+  margin: 0 auto;
+  width: 90%;
+}
+.Faq__title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+.Faq__qns__block {
+  margin-top: 20px;
+  border: 1px solid #eee;
+  border-radius: 5px;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.Faq__qns__line {
+  display: flex;
+  width: 90%;
+  justify-content: space-between;
+  margin: 10px;
+  border-bottom: 1px solid #eee;
+  padding: 15px;
+}
+.Faq__arrow {
+  height: 20px;
+}
+.Faq__qns {
+  line-height: 1.5em;
+}
+
+.Faq__ans__block {
+  padding: 15px;
+}
+
+.Faq__ans {
+  border-bottom: 1px solid #eee;
+  width: 90%;
+  line-height: 1.5em;
+}

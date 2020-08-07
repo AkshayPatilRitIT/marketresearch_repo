@@ -1,0 +1,24 @@
+.Privacy__wrapper {
+  margin-top: 40px;
+}
+
+.Privacy__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Privacy__title {
+  font-size: 1.4rem;
+  font-weight: bold;
+}
+
+.Privacy__text {
+  margin: 10px 0;
+}
+
+.Privacy__subtitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #2d84e8;
+  margin-bottom: 10px;
+}

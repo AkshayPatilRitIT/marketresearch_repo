@@ -1,0 +1,81 @@
+.Extensive_research__wrapper {
+  background-color: #e4f3f6;
+}
+
+.Extensive_research__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Extensive_research__block {
+  padding: 40px 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Extensive_research__left__card {
+  background-color: white;
+  padding: 15px;
+  margin: 10px;
+  color: #005eae;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 1.2rem;
+}
+.Extensive_research__left__card:hover {
+  background-color: #2d84e8;
+  color: white;
+}
+
+.Extensive_research__right__text {
+  font-size: 1.8rem;
+  font-weight: bold;
+  color: #005eae;
+  margin-top: 10px;
+}
+
+.Extensive_research__right__underline {
+  margin-top: 10px;
+  border-bottom: 1px solid #005eae;
+}
+
+.Extensive_research__right__inner__text {
+  color: #005eae;
+  /* font-size: 1rem; */
+  margin-top: 20px;
+}
+
+.Extensive_research__left__card1 {
+  width: 85%;
+}
+.Extensive_research__left__card2 {
+  width: 75%;
+}
+.Extensive_research__left__card3 {
+  width: 65%;
+}
+.Extensive_research__left__card4 {
+  width: 75%;
+}
+.Extensive_research__left__card5 {
+  width: 80%;
+}
+
+.active {
+  border-left: 7px solid #fc6e36;
+  transition: all 0.2s ease-in-out;
+  background-color: #2d84e8;
+  color: white;
+}
+
+@media screen and (max-width: 768px) {
+  .Extensive_research__block {
+    display: flex;
+    flex-direction: column;
+  }
+  .Extensive_research__left {
+    display: flex;
+    overflow-x: scroll;
+  }
+}

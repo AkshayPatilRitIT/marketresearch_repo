@@ -1,0 +1,141 @@
+.Contact__wrapper {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.Contact__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Contact__block {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 20px;
+}
+
+.Contact__block__left {
+  border: 1px solid #eee;
+  padding: 20px;
+}
+/*
+.Contact__block__right {
+  flex: 1;
+} */
+.Contact__block__left__title {
+  font-size: 1.8rem;
+  text-align: center;
+}
+.Landing__contactus__wrapper {
+  background-image: linear-gradient(to right, rgb(79, 79, 228), rgb(3, 3, 172));
+  padding: 50px 0px;
+}
+
+.Landing__contactus__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Landing__contactus__title {
+  font-size: 2.5rem;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding-right: 5px;
+}
+
+.Landing__contactus__subtitle {
+  color: white;
+  font-size: 1.1rem;
+  padding-right: 5px;
+  line-height: 1.5em;
+}
+.Landing__contactus__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Landing__contactus__right__title {
+  font-weight: bold;
+}
+
+.Landing__contactus__right__wrapper {
+  background-color: white;
+  padding: 20px;
+}
+
+.Landing__contactus__form__two__field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+.Landing__contactus__form__field {
+  padding: 8px;
+  border-radius: 5px;
+  width: 65%;
+  border: 1px solid rgb(179, 176, 176);
+}
+.Landing__contactus__form__field__single {
+  margin-top: 20px;
+  width: 83%;
+  padding: 8px;
+  border-radius: 5px;
+  border: 1px solid rgb(179, 176, 176);
+}
+
+.Landing__contactus__form__btn {
+  text-align: center;
+  background-color: #fc6e36;
+  border: 1px solid #fc6e36;
+  padding: 10px;
+  color: white;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.Landing__contactus__form__btn__wrapper {
+  text-align: center;
+}
+.Contact__block__right__title {
+  margin: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+.Contact__block__right__address {
+  border: 1px solid #eee;
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.Contact__block__right__number {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.Contact__block__right__mail,
+.Contact__block__right__call {
+  text-decoration: none;
+  margin: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .Landing__contactus__block,
+  .Contact__block {
+    grid-template-columns: 1fr;
+  }
+  .Landing__contactus__right {
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Landing__contactus__form__two__field {
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+  }
+
+  .Landing__contactus__form__field,
+  .Landing__contactus__form__field__single {
+    width: 90%;
+  }
+}

@@ -1,0 +1,76 @@
+.Footer__container {
+  background-color: #04012e;
+  padding-bottom: 20px;
+}
+
+.Footer__wrapper {
+  width: 90%;
+  margin: 0 auto;
+  color: white;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.Footer__title {
+  text-transform: capitalize;
+  font-size: 1.4rem;
+  color: white;
+  font-weight: bold;
+  padding-top: 20px;
+  margin-bottom: 10px;
+}
+
+.payment__icon {
+  height: 40px;
+}
+
+.Footer__link {
+  text-decoration: none;
+  color: white;
+  line-height: 2rem;
+}
+
+.Footer__quicklink {
+  line-height: 2rem;
+  cursor: pointer;
+}
+
+.Footer__copyrights {
+  text-align: center;
+  padding: 15px 0;
+  color: white;
+  background-color: rgb(99, 92, 92);
+}
+.Footer__logo__icon {
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.Footer__logo__block {
+  display: flex;
+  margin-top: 20px;
+}
+.Footer__logo__wrapper {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 40px;
+  width: 40px;
+  margin: 10px;
+  cursor: pointer;
+}
+.Footer__logo {
+  margin-top: 30px;
+}
+.Footer__logo__img {
+  height: 50px;
+}
+@media screen and (max-width: 768px) {
+  .Footer__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .Footer__wrapper {
+    grid-template-columns: 1fr;
+  }
+}

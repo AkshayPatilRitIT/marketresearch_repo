@@ -1,0 +1,224 @@
+.Report__search__block {
+  background-color: #2d84e8;
+  padding-top: 130px;
+}
+
+.Report__search__container {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px 0;
+}
+
+.Report__title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  color: white;
+}
+
+.Report__search__area {
+  display: flex;
+  margin-top: 10px;
+}
+
+.Report__search__input {
+  width: 80%;
+  height: 30px;
+  padding: 5px;
+  border: 1px solid #eee;
+  border-right: none;
+}
+
+.Report__search__btn {
+  background-color: #fc6e36;
+  width: 20%;
+  border: none;
+  height: 42px;
+  color: white;
+  padding: 10px;
+}
+
+.Report__tabs {
+  display: flex;
+  text-align: center;
+
+  /* flex-wrap: wrap; */
+}
+
+.Report__wrapper {
+  margin-top: 30px;
+}
+.Report__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Report__tabs__block {
+  background-color: #2d84e8;
+  padding: 10px;
+  /* margin: 2px; */
+  color: white;
+  /* font-weight: bold; */
+  /* font-size: 0.9em; */
+  cursor: pointer;
+  width: 100%;
+}
+.Report__tabs__block__active {
+  background-color: #f2f2f2;
+  padding: 10px;
+  /* margin: 2px; */
+  color: white;
+  /* font-size: 0.9em; */
+  /* font-weight: bold; */
+  cursor: pointer;
+  color: #2d84e8;
+  width: 100%;
+  /* border-bottom: 1px solid black; */
+}
+
+.Report__tabs__block__org {
+  /* background-color: #f58524; */
+}
+
+.Report__tabs__output {
+  margin-top: 30px;
+}
+
+.Report__main__title {
+  font-size: 1.7rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Report__block {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-bottom: 30px;
+}
+
+.Report__left {
+  background-color: #f2f2f2;
+}
+.Report__right {
+}
+.Report__payment__title {
+  background-color: #2d84e8;
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+}
+table {
+  border: 1px solid #eee;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.Report__right__table {
+  margin: 20px;
+}
+/* Inquery css */
+.Report__inquery__title {
+  color: #57abe0;
+  font-weight: bold;
+}
+
+.Report__inquery__fields {
+  display: flex;
+  margin-top: 20px;
+}
+
+.Report__iquery__error {
+  color: red;
+  font-size: 0.8em;
+}
+
+.Report__iquery__field {
+}
+
+.Report__field__body {
+  display: flex;
+  margin-top: 20px;
+}
+.Report__field__body__label {
+  flex: 1;
+  font-weight: bold;
+}
+.Report__field__body__input {
+  flex: 1;
+}
+
+.Report__iquery__field__select {
+  height: 35px;
+  width: 102%;
+  border: 1px solid rgb(180, 175, 175);
+  border-radius: 5px;
+}
+.Report__iquery__field {
+  width: 100%;
+  height: 25px;
+  border: 1px solid rgb(180, 175, 175);
+  border-radius: 5px;
+  padding: 3px;
+  /* transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s; */
+}
+
+.Report__iquery__btn {
+  background-color: #2d84e8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+}
+
+/* Reprt details css */
+
+.Report__details__readmore {
+  background-color: #2d84e8;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.Report__details____btn__disable {
+  display: none;
+}
+.Report__right__btn__wrapper {
+  width: 100%;
+  text-align: center;
+}
+
+.Report__right__btn {
+  cursor: pointer;
+  background-color: #2d84e8;
+  margin-top: 30px;
+  border: none;
+  color: white;
+  padding: 15px;
+  border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+  .Report__search__block {
+    padding-top: 20%;
+  }
+  .Report__block {
+    grid-template-columns: 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Report__search__block {
+    padding-top: 50%;
+  }
+  .Report__tabs {
+    flex-wrap: wrap;
+  }
+}

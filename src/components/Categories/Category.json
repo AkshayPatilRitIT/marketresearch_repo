@@ -1,0 +1,259 @@
+[
+  {
+    "name": "Automotive",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Chemicals and Materials",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Manufacturing & Construction",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Medical Devices",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Electronics",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Technology and Media",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Food and Beverages",
+    "subcategory": [
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Energy",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Electrical",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Public Sector",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Consumer Goods",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  },
+  {
+    "name": "Others",
+    "subcategory": [
+      {
+        "title": "Airports",
+        "value": 12
+      },
+      {
+        "title": "Machines",
+        "value": 43412
+      },
+      {
+        "title": "Parts & Suppliers",
+        "value": 12434
+      },
+      {
+        "title": "Transport & Logistics",
+        "value": 12434
+      }
+    ]
+  }
+]

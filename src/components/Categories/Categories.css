@@ -1,0 +1,87 @@
+.Categories__block {
+  background-color: #2d84e8;
+  padding-top: 130px;
+}
+
+.Categories__block__title {
+  width: 90%;
+  margin: 0 auto;
+  padding: 30px;
+  color: white;
+  font-size: 1.8rem;
+}
+
+.Categories__container {
+  width: 90%;
+  margin: 0 auto;
+}
+
+.Categories__header {
+  margin: 30px 0;
+  border: 1px solid #eee;
+  box-shadow: 0px 5px #b9b7b7;
+}
+
+.Categories__header__title {
+  padding: 30px;
+}
+.Categories__Card__wrapper {
+  display: grid;
+  grid-gap: 20px;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-bottom: 40px;
+  cursor: pointer;
+}
+
+.Categories__Card {
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  box-shadow: 3px 7px 5px 5px rgba(0, 0, 0, 0.02);
+}
+
+.Categories__Card__title__value {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 30px;
+}
+
+.Categories__Card__arrow__block {
+  padding: 30px;
+  border-left: 1px solid #eee;
+  cursor: pointer;
+}
+
+.Categories__Card__arrow__block:hover {
+  background-color: #005eae;
+}
+
+.Categories__Card__arrow {
+  height: 20px;
+}
+
+.Categories__Card__dropdown {
+  border: 1px solid rgb(153, 151, 151);
+  padding: 10px;
+  transition: all 0.5s ease-in-out;
+}
+
+.Categories__Card__dropdown__content {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  line-height: 1.5em;
+}
+@media screen and (max-width: 768px) {
+  .Categories__Card__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+@media screen and (max-width: 425px) {
+  .Categories__Card__wrapper {
+    grid-template-columns: 1fr;
+  }
+}

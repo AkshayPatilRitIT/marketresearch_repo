@@ -1,0 +1,97 @@
+.Cart__wrapper {
+  padding-top: 160px;
+}
+.Cart__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Cart__table__wrapper {
+  margin-top: 30px;
+}
+.Cart__block {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 20px;
+}
+
+.Cart__table__header {
+  border: 1px solid #eee;
+  display: grid;
+  grid-template-columns: 4fr 1fr 1fr 1fr;
+  padding: 10px;
+}
+.Cart__mobile__card {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.color_blue {
+  color: #2d84e8;
+}
+.Cart__mobile__card__title {
+  font-weight: bold;
+}
+
+.Cart_total__title {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+
+.Cart_total__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+}
+
+.Cart_total__flex {
+  /* flex: 1; */
+  border: 1px solid #eee;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.Cart_total__value__line {
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.Cart_total__btn {
+  display: block;
+  text-align: center;
+  margin-bottom: 1em;
+  font-size: 1.25em;
+  padding: 1em;
+  border: none;
+  background-color: #a46497;
+  color: #fff;
+  border-radius: 5px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+.Cart_total__value__btn__link {
+  text-decoration: none;
+}
+.Cart_total__btn:hover {
+  background-color: #df3dbe;
+}
+
+@media screen and (max-width: 768px) {
+  .Cart__block {
+    grid-template-columns: 1fr;
+  }
+  .Cart__mobile__card__grid__view {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+@media screen and (max-width: 425px) {
+  .Cart__wrapper {
+    padding-top: 220px;
+  }
+  .Cart__mobile__card__grid__view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}

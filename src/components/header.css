@@ -1,0 +1,41 @@
+.header__wrapper {
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 90%;
+}
+
+.header__outer {
+  position: fixed;
+  width: 100%;
+  z-index: 1000;
+  background-color: white;
+}
+
+.header__icon {
+  height: 20px;
+}
+
+.header__email__block {
+  display: flex;
+  justify-content: flex-end;
+  margin: 20px;
+}
+.header__number__block {
+  justify-content: flex-end;
+  display: flex;
+  margin: 20px;
+}
+.header__email__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+@media screen and (max-width: 425px) {
+  .header__email__block,
+  .header__number__block {
+    margin: 10px;
+  }
+}

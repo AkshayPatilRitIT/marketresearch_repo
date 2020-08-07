@@ -1,0 +1,85 @@
+.Checkout__wrapper {
+  padding-top: 150px;
+}
+.Checkout__container {
+  margin: 0 auto;
+  width: 90%;
+}
+.Checkout__table__wrapper {
+  margin-top: 30px;
+}
+.Checkout__left {
+  padding-right: 20px;
+}
+.Checkout__block {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+
+.Checkout__form__title {
+  font-size: 1.5rem;
+  margin-top: 30px;
+}
+.Checkout__form__mandatory {
+  color: red;
+}
+
+.Checkout__form__two__field {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+}
+
+.Checkout__form__field {
+  width: 100%;
+}
+
+.Checkout__form__field__wrapper {
+  padding: 10px;
+}
+
+.Checkout__form__field {
+  height: 30px;
+  margin-top: 5px;
+  border-radius: 5px;
+  border: 1px solid rgb(165, 162, 162);
+  padding: 5px;
+}
+
+.Checkout__form__label {
+  font-weight: bold;
+}
+.Checkout__form__field__textarea {
+  height: 50px;
+}
+.Checkout__form__radio__image {
+  height: 50px;
+}
+
+.Checkout__form__field__btn__wrapper {
+  width: 100%;
+  text-align: end;
+  margin-bottom: 20px;
+}
+
+.Checkout__form__field__btn {
+  color: white;
+  padding: 20px;
+  background-color: #ed9f30;
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  cursor: pointer;
+}
+@media screen and (max-width: 768px) {
+  .Checkout__block {
+    grid-template-columns: 1fr;
+  }
+  .Checkout__form__two__field {
+    grid-template-columns: 1fr;
+  }
+  .Checkout__left {
+    padding: 10px;
+  }
+}

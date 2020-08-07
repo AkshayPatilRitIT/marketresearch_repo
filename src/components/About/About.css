@@ -1,0 +1,52 @@
+.About__title__banner {
+  background-color: #2d84e8;
+  padding-top: 130px;
+}
+
+.About__title__banner__container {
+  margin: 0 auto;
+  width: 92%;
+  color: white;
+  padding: 30px;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.About__container {
+  margin: 0 auto;
+  width: 92%;
+}
+
+.About__para {
+  line-height: 1.5em;
+  margin-top: 40px;
+}
+
+.About__block {
+  display: flex;
+  flex-wrap: wrap;
+}
+.About__left {
+  flex: 2;
+}
+.About__right {
+  flex: 1;
+  margin-top: 30px;
+}
+.About__right__block {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+}
+
+.About__right__block__title {
+  background-color: #fc6e36;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+}
+
+.About__right__report {
+  padding: 10px;
+  line-height: 1.5em;
+  cursor: pointer;
+}

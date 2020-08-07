@@ -1,0 +1,423 @@
+/* about css */
+
+.Landing__about__us__block {
+  background-color: #e4f3f6;
+  /* margin: 30px 0;   */
+}
+
+.Landing__about__us {
+  padding: 40px 0px;
+}
+.Landing__about__us__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 20px;
+  margin: 0 auto;
+  width: 90%;
+}
+.Landing__about__us__container {
+  display: grid;
+  grid-gap: 40px;
+  grid-template-columns: 1fr 1fr;
+}
+
+.Landing__about__us__card__image {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  border: 1px solid #eee;
+  background-color: #fc6e36;
+  text-align: center;
+  margin-top: 20px;
+}
+.Landing__about__us__card__img {
+  height: 40px;
+  margin-top: 15px;
+}
+
+.Landing__about__us__card__color {
+  background-color: #2ecc0a;
+}
+.Landing__about__us__card__image__wrapper {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+.Landing__about__us__card1 {
+  box-shadow: 0 4px 21.36px 2.64px rgba(25, 38, 62, 0.06);
+  width: 100%;
+  background-color: white;
+  height: fit-content;
+  margin: 20px 0;
+  border: 1px solid #eee;
+  border-radius: 5px;
+}
+.Landing__about__us__card__title {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-top: 5px;
+  font-weight: 700;
+  color: #2d84e8;
+}
+.Landing__about__us__card__text {
+  padding: 20px;
+  text-align: center;
+}
+
+.Landing__about__us__description__title {
+  margin-top: 40px;
+  margin-left: 20px;
+  color: #fc6e36;
+  font-weight: 700;
+}
+.Landing__about__us__description__maintitle {
+  margin-top: 10px;
+  margin-left: 20px;
+  font-size: 2rem;
+  color: #2d84e8;
+  font-weight: bold;
+}
+.Landing__about__us__description__para1 {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #2d84e8;
+  font-weight: bold;
+}
+.Landing__about__us__description__para2 {
+  margin-top: 15px;
+  margin-left: 20px;
+}
+
+.Landing__about__us__description__btn__wrapper {
+  margin-top: 40px;
+  margin-left: 20px;
+  margin-bottom: 40px;
+}
+.Landing__about__us__description__btn {
+  background-color: #fc6e36;
+  color: #fff;
+  font-size: 1.06667rem;
+  font-weight: 600;
+  padding: 17px 30px;
+  display: inline-block;
+  position: relative;
+  border-radius: 60px;
+  box-sizing: border-box;
+  border: 1px solid #fc6e36;
+  cursor: pointer;
+}
+
+/* why us css */
+.Landing__whyus__wrapper {
+  margin: 50px 0;
+}
+.Landing__whyus__container {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.Landing__whyus__leadtitle {
+  font-size: 2.5rem;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  font-weight: 700;
+  color: #2d84e8;
+  text-transform: uppercase;
+  text-align: start;
+  border-left: 15px solid #fc6e36;
+  padding-left: 15px;
+}
+
+.Landing__whyus__title {
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 20px;
+  font-weight: 700;
+  color: #2d84e8;
+}
+
+.Landing__whyus__subtitle {
+  color: #687693;
+  line-height: 1.7em;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.Landing__whyus__left__img {
+  height: 450px;
+}
+
+.Landing__whyus__block {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin-top: 30px;
+}
+
+.Landing__whyus__right {
+  margin: 10px 20px;
+}
+.Landing__whyus__right__card__circle {
+  min-width: 100px;
+}
+.Landing__whyus__right__card {
+  border: 1px solid #eee;
+  padding: 30px;
+  border-radius: 5px;
+  width: auto;
+  box-shadow: 0 4px 25.81px 3.19px rgba(35, 61, 98, 0.06);
+}
+.Landing__whyus__right__card__circle__outer {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: rgba(252, 110, 54, 0.1);
+}
+
+.Landing__whyus__right__card__circle__outer2 {
+  background-color: #2ecc0a;
+}
+.Landing__whyus__right__card__circle__outer3 {
+  background-color: #7633ff;
+}
+.Landing__whyus__right__card__img {
+  height: 40px;
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+
+.Landing__whyus__right__card__inner {
+  display: flex;
+}
+
+.Landing__whyus__right__card__circle__text {
+  margin: 10px;
+}
+
+.Landing__whyus__right__card__title {
+  color: #2d84e8;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.Landing__whyus__right__card__subtitle {
+  color: #687693;
+  line-height: 1.7em;
+}
+
+.Landing__whyus__right__card2 {
+  margin-left: 5%;
+  margin-top: 20px;
+}
+.Landing__whyus__right__card3 {
+  /* margin-left: 5%; */
+  margin-top: 20px;
+}
+
+/* Add Category csss */
+
+.Landing__category__wrapper {
+  margin: 50px 0;
+  padding: 30px 0;
+  /* background-color: #e4f3f6; */
+}
+
+.Landing__category__contaner {
+  margin: 0 auto;
+  width: 90%;
+}
+.Landing__category__card__wrapper {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 40px;
+}
+
+.Landing__category__card {
+  box-shadow: 0 4px 21.36px 2.64px rgba(25, 38, 62, 0.06);
+  border: 1px solid #eee;
+  height: 140px;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 15px;
+  transition: all 0.4s ease-in-out;
+}
+.Landing__category__card:hover {
+  transform: scale(1.1);
+}
+
+.Landing__category__card__img__wrapper {
+  display: flex;
+}
+.Landing__category__card__img {
+  height: 50px;
+  margin: 10px;
+}
+
+.Landing__cate__top__wrapper {
+  display: flex;
+  cursor: pointer;
+}
+.Landing__cate__top__wrapper:hover {
+  color: #2d84e8;
+}
+.Landing__cate__card {
+  border: 1px solid #eee;
+  border-radius: 5px;
+  padding: 15px;
+}
+
+.Landing__cate__img__outer {
+  border: 1px solid black;
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+
+.Landing__cate__title {
+  font-weight: bold;
+  align-items: center;
+  margin: 20px;
+}
+
+.Landing__cate__text {
+  margin: 20px 0;
+}
+.Landing__cate__btn__wrapper {
+  text-align: end;
+}
+
+.Landing__cate__btn {
+  padding: 10px;
+  border-radius: 20px;
+  background-color: white;
+  border: 1px solid #2d84e8;
+
+  cursor: pointer;
+  color: #2d84e8;
+}
+
+.Landing__cate__btn:hover {
+  background-color: #2d84e8;
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+
+/* .Landing__category__card2 {
+  background-image: url("../../images/landing/chemical.jpg");
+}
+.Landing__category__card3 {
+  background-image: url("../../images/landing/consumer.jpg");
+}
+.Landing__category__card4 {
+  background-image: url("../../images/landing/energy.jpg");
+}
+.Landing__category__card5 {
+  background-image: url("../../images/landing/medical.jpg");
+}
+.Landing__category__card6 {
+  background-image: url("../../images/landing/technology.jpg");
+} */
+
+.Landing__category__card__title {
+  color: #fc6e36;
+  font-size: 1.2rem;
+  font-weight: bold;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+.Landing__category__card__text {
+  margin-top: 20px;
+}
+.Landing__category__btn__wrapper {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.Landing__category__btn {
+  background-color: #fc6e36;
+  border: none;
+  padding: 15px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+/* .Landing__category__card__image {
+  height: 40px;
+  margin-top: 20px;
+  margin-left: 20px;
+}
+.Landing__category__outer {
+  display: flex;
+}
+.Landing__category__card__img {
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  background-color: #f2dcd3;
+}
+
+.Landing__category__card__title {
+  color: #2d84e8;
+  font-weight: bold;
+  margin-top: 30px;
+  margin-left: 5px;
+}
+.Landing__category__card2 {
+  background-color: #d4d6f8;
+}
+.Landing__category__card3 {
+  background-color: #c2dfcd;
+} */
+
+.publisher__loader {
+  border: 16px solid #f3f3f3; /* Light grey */
+  border-top: 16px solid #3498db; /* Blue */
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  animation: spin 2s linear infinite;
+}
+
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+@media screen and (max-width: 768px) {
+  .Landing__about__us__wrapper {
+    grid-template-columns: 1fr;
+  }
+  .Landing__whyus__block {
+    grid-template-columns: 1fr;
+  }
+  .Landing__whyus__right__card2 {
+    margin-left: 0;
+  }
+  .Landing__category__card__wrapper {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .Landing__about__us__container {
+    grid-template-columns: 1fr;
+  }
+
+  .Landing__whyus__left__img {
+    height: 330px;
+    text-align: center;
+  }
+  .Landing__whyus__right__card__inner {
+    flex-direction: column;
+  }
+
+  .Landing__category__card__wrapper {
+    grid-template-columns: 1fr;
+  }
+}

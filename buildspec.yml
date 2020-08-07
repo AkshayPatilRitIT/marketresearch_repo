@@ -1,0 +1,23 @@
+version: 0.2
+
+phases:
+  install:
+    commands:
+      - npm install
+
+  build:
+    commands:
+      - npm run build
+
+  post_build:
+    commands:
+      # remove all contents inside s3://market-research-pre-deploy bucket
+      - aws s3 rm s3://market-research-pre-deploy --recursive
+      # copy local public to s3://market-research-deploy-pre-deploy
+      - aws s3 cp public s3://market-research-pre-deploy --recursive
+      # move contents from prod bucket to post-deploy bucket
+      - aws s3 mv s3://market-research-deploy s3://market-research-post-deploy --recursive
+      # build to deploy
+      # make deploy objects public
+      - aws s3 mv s3://market-research-pre-deploy s3://market-research-deploy --recursive --acl public-read
+      - aws s3 cp s3://market-research-deploy/index.html s3://market-research-deploy/index.html --metadata-directive REPLACE --cache-control="max-age=0, no-cache, no-store, must-revalidate" --acl public-read

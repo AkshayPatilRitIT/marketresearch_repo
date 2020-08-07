@@ -1,0 +1,43 @@
+.ReportDisplay__wrapper {
+  padding-top: 150px;
+}
+
+.ReportDisplay__right__radio__wrapper {
+  border: 1px solid #eee;
+  margin-bottom: 30px;
+}
+.ReportDisplay__block {
+  display: grid;
+  grid-template-columns: 3fr 1fr;
+  grid-gap: 10px;
+}
+
+.ReportDisplay__wrapper {
+  margin: 0 auto;
+  width: 90%;
+}
+
+.ReportDisplay__right__browse {
+  background-color: #2d84e8;
+  /* border-left: 5px solid #fc6e36; */
+  padding: 10px;
+  color: white;
+}
+
+.ReportDisplay__right__radio__name {
+}
+
+.ReportDisplay__right__radio__inner {
+  margin: 10px;
+  padding: 5px;
+  display: flex;
+  width: 80%;
+  justify-content: space-between;
+  border-bottom: 1px solid #eee;
+}
+
+@media screen and (max-width: 768px) {
+  .ReportDisplay__block {
+    grid-template-columns: 1fr;
+  }
+}
